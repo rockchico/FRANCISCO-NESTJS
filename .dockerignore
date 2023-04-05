@@ -1,0 +1,12 @@
+node_modules
+**/node_modules
+**/.git
+**/.dockerignore
+**/*.md
+**/docker-compose.*
+**/.next
+**/dist
+**/.turbo
+**/*.Dockerfile
+**/.pnpm-store*
+**/.vscode*
