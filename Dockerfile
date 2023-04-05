@@ -19,7 +19,6 @@ ENV NODE_ENV=production
 
 
 # First install dependencies (as they change less often)
-COPY .gitignore .gitignore
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile --silent
 
