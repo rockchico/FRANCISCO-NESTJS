@@ -36,6 +36,9 @@ FROM node:${NODE_VERSION}-bullseye-slim AS runner
 
 WORKDIR /app
 
+ENV NODE_ENV=production
+#ENV MINHA_ENV_VAR=Opaaaa!
+
 RUN apt-get update && apt-get install -y --no-install-recommends dumb-init && \
     rm -rf /var/lib/apt/lists/*
 
